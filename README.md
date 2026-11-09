@@ -10,7 +10,7 @@ Lidkeys (installs as **Strip.app**) is a context-aware glass control strip for m
 
 This build is **not notarized** by Apple. macOS will warn on first launch. Either:
 
-1. Right-click (Control-click) `Strip.app` → **Open** → **Open**, or
+1. Open `Strip.app`. When macOS blocks it, click **Done** (not *Move to Trash*), then **System Settings → Privacy & Security → Open Anyway**, or
 2. Terminal: `xattr -dr com.apple.quarantine /Applications/Strip.app`
 
 Then grant Accessibility in System Settings → Privacy & Security → Accessibility.
